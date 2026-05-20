@@ -9,17 +9,26 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
+<<<<<<< HEAD
     "test": "node --experimental-vm-modules --disable-warning=ExperimentalWarning node_modules/jest/bin/jest.js",
     "test:node": "node --test --experimental-test-coverage \"**/tests/node/*.test.js\""
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> bde9f08a17344d3a3f9049650f5bebc3c7447435
   },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@jest/globals": "^30.3.0",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "jest": "^30.3.0"
+=======
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6"
+>>>>>>> bde9f08a17344d3a3f9049650f5bebc3c7447435
   }
 }

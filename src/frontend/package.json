@@ -8,15 +8,20 @@
   "type": "module",
   "scripts": {
     "start": "http-server -p 3000 -c-1",
+<<<<<<< HEAD
     "test": "node --experimental-vm-modules --disable-warning=ExperimentalWarning node_modules/jest/bin/jest.js",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:report": "playwright show-report",
     "test:e2e:codegen": "playwright codegen",
+=======
+    "test": "echo \"Error: no test specified\" && exit 1",
+>>>>>>> bde9f08a17344d3a3f9049650f5bebc3c7447435
     "lint": "eslint ."
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+<<<<<<< HEAD
     "@jest/globals": "^30.3.0",
     "@playwright/test": "^1.59.1",
     "@testing-library/dom": "^10.4.1",
@@ -27,5 +32,9 @@
     "jest": "^30.3.0",
     "jest-environment-jsdom": "^30.3.0",
     "shadow-dom-testing-library": "^1.13.1"
+=======
+    "eslint": "^10.0.2",
+    "http-server": "^14.1.1"
+>>>>>>> bde9f08a17344d3a3f9049650f5bebc3c7447435
   }
 }

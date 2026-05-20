@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import Math from '../../utils/math.js';
+=======
+import { Math } from '../../utils/math.js';
+>>>>>>> bde9f08a17344d3a3f9049650f5bebc3c7447435
 
 export class CounterModel {
     #value;

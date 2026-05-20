@@ -147,6 +147,7 @@ test-results/
 playwright-report/
 blob-report/
 playwright/.cache/
+<<<<<<< HEAD
 .auth/
 
 # Playwright
@@ -154,3 +155,6 @@ playwright/.cache/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+=======
+.auth/
+>>>>>>> bde9f08a17344d3a3f9049650f5bebc3c7447435
